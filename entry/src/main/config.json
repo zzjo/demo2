@@ -1,0 +1,81 @@
+{
+  "app": {
+    "bundleName": "com.zzjo.myapplication.demo2",
+    "vendor": "zzjo",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.KEEP_BACKGROUND_RUNNING"
+      }
+    ],
+    "package": "com.zzjo.myapplication.demo2",
+    "name": ".MyApplication",
+    "mainAbility": "com.zzjo.myapplication.demo2.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.zzjo.myapplication.demo2.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.zzjo.myapplication.demo2.ShopcartAbility",
+        "icon": "$media:icon",
+        "description": "$string:shopcartability_description",
+        "label": "$string:entry_ShopcartAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "name": "com.zzjo.myapplication.demo2.MusicServiceAbility",
+        "icon": "$media:icon",
+        "description": "$string:musicserviceability_description",
+        "type": "service",
+        "visible": true,
+        "backgroundModes": [
+          "dataTransfer",
+          "location"
+        ]
+      },
+      {
+        "permissions": [
+          "com.zzjo.myapplication.demo2.DataAbilityShellProvider.PROVIDER"
+        ],
+        "name": "com.zzjo.myapplication.demo2.FileDataAbility",
+        "icon": "$media:icon",
+        "description": "$string:filedataability_description",
+        "type": "data",
+        "uri": "dataability://com.zzjo.myapplication.demo2.FileDataAbility"
+      }
+    ]
+  }
+}

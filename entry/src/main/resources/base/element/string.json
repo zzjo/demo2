@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "shopcartability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "shopcartability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_ShopcartAbility",
+      "value": "entry_ShopcartAbility"
+    },
+    {
+      "name": "musicserviceability_description",
+      "value": "hap sample empty service"
+    },
+    {
+      "name": "filedataability_description",
+      "value": "hap sample empty provider"
+    }
+  ]
+}

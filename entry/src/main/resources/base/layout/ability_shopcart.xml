@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_helloworld"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_ability_shopcart"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="音乐播放界面"
+        ohos:text_size="40vp"
+        />
+
+    <Button
+        ohos:id="$+id:playBtnStart"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#0aabbc"
+        ohos:padding="15vp"
+        ohos:text="启动服务"
+        ohos:text_size="20vp"
+        ohos:top_margin="5vp"></Button>
+    <Button
+        ohos:id="$+id:playBtnCommon"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#0aabbc"
+        ohos:padding="15vp"
+        ohos:text="连接服务"
+        ohos:text_size="20vp"
+        ohos:top_margin="5vp"></Button>
+    <Button
+        ohos:id="$+id:playBtnStop"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#0aabbc"
+        ohos:padding="15vp"
+        ohos:text="暂停服务"
+        ohos:text_size="20vp"
+        ohos:top_margin="5vp"></Button>
+    <Button
+        ohos:id="$+id:playBtnKill"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#0aabbc"
+        ohos:padding="15vp"
+        ohos:text="销毁服务"
+        ohos:text_size="20vp"
+        ohos:top_margin="5vp"></Button>
+</DirectionalLayout>
